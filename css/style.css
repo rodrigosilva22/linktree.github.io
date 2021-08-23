@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+html, body{
+    height:auto;
+    width: auto;
+}
+.contener{
+    text-align: center;
+    
+}
+.avatar{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 2px solid blanchedalmond;
+    box-shadow: 0px 4px 20px rgb(226 90 90);
+
+}
+body{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg,  rgb(243 163 163) 0%, rgba(0,212,255,1) 100%);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    font-family: 'Klee One', cursive;
+    font-size: 29px;
+    margin-bottom: -42px;;
+    margin-top: initial;
+}
+
+h2{
+    font-family: 'Allison', cursive;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-top: 32px;
+}
+
+.social{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 15px 91px;
+}
+.social img{
+    width:33px;
+}
+.lista-links{
+    list-style: none;
+    
+}
+  
+.lista-links li{
+    display: block;
+    margin: 20px;
+    padding: 20px;
+    background: rgb(255,254,254);
+    background: linear-gradient(180deg, rgba(255,254,254,1) 0%, rgba(231,240,242,1) 100%);
+    box-shadow: 0 0 20px blanchedalmond;
+    border-radius: 15px;
+}
+
+.lista-links li a{
+    color: blueviolet;
+    text-decoration: none;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.lista-links li a span{
+    color: cadetblue;
+    display: block;
+    margin: 5px;
+}
+.footer{
+    color: rgb(12, 12, 11);
+    text-align: center;
+    font-size: 30px;
+    margin: 30px 0;
+    padding: 5px;
+}
+
